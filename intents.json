@@ -1,0 +1,92 @@
+{
+  "intents": [
+    {
+      "name": "AMAZON.CancelIntent",
+      "samples": []
+    },
+    {
+      "name": "AMAZON.HelpIntent",
+      "samples": []
+    },
+    {
+      "name": "AMAZON.StopIntent",
+      "samples": []
+    },
+    {
+      "name": "CounterIntent",
+      "samples": [
+        "start counter"
+      ],
+      "slots": []
+    },
+    {
+      "name": "SingIntent",
+      "samples": [
+        "to sing"
+      ],
+      "slots": []
+    },
+    {
+      "name": "TripIntent",
+      "samples": [
+        "I am going on a trip",
+        "I am going on a trip to {toCity}"
+      ],
+      "slots": [
+        {
+          "name": "toCity",
+          "type": "AMAZON.US_CITY",
+          "samples": [
+            "{toCity}"
+          ]
+        }
+      ]
+    }
+  ],
+  "prompts": [
+    {
+      "id": "Elicit.Intent-TripIntent.IntentSlot-toCity",
+      "promptVersion": "1.0",
+      "definitionVersion": "1.0",
+      "variations": [
+        {
+          "type": "PlainText",
+          "value": "What city?"
+        }
+      ]
+    },
+    {
+      "id": "Confirm.Intent-TripIntent.IntentSlot-toCity",
+      "promptVersion": "1.0",
+      "definitionVersion": "1.0",
+      "variations": [
+        {
+          "type": "PlainText",
+          "value": "was that {toCity}"
+        }
+      ]
+    }
+  ],
+  "dialog": {
+    "version": "1.0",
+    "intents": [
+      {
+        "name": "TripIntent",
+        "confirmationRequired": false,
+        "prompts": {},
+        "slots": [
+          {
+            "name": "toCity",
+            "type": "AMAZON.US_CITY",
+            "elicitationRequired": true,
+            "confirmationRequired": true,
+            "prompts": {
+              "elicit": "Elicit.Intent-TripIntent.IntentSlot-toCity",
+              "confirm": "Confirm.Intent-TripIntent.IntentSlot-toCity"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}
