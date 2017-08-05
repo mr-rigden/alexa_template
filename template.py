@@ -59,30 +59,35 @@ def continue_dialog():
 ##############################
 
 
-def nonstop_intent(event, context):
-    if "Monkey" in event['session']['attributes']:
-        event['session']['attributes']['Shit'] = "Lots of it"
-    event['session']['attributes']['Monkey'] = "bobo"
-    return conversation("This never ends", "This is nonstop",
-                        event['session']['attributes'])
-    #return statement("Nonstao", "You Nonstao to count something")
+def sing_intent(event, context):
+    song = "Daisy, Daisy. Give me your answer, do. I'm half crazy all for the love of you"
+    return statement("daisy_bell_intent", song)
 
 
-def plan_my_trip(event, context):
+def counter_intent(event, context):
+    session_attributes = event['session']['attributes']
+
+    if "counter" in session_attributes:
+        session_attributes['counter'] += 1
+
+    else:
+        session_attributes['counter'] = 1
+
+    return conversation("counter_intent", session_attributes['counter'],
+                        session_attributes)
+
+
+def trip_intent(event, context):
     dialog_state = event['request']['dialogState']
 
     if dialog_state in ("STARTED", "IN_PROGRESS"):
         return continue_dialog()
 
     elif dialog_state == "COMPLETED":
-        return statement("plan_my_trip", "Plan complete. Good Job")
+        return statement("trip_intent", "Have a good trip")
 
     else:
-        return statement("plan_my_trip", "No dialog")
-
-
-def count_intent():
-    return statement("CountIntent", "You want to count something")
+        return statement("trip_intent", "No dialog")
 
 
 ##############################
@@ -121,17 +126,14 @@ def intent_router(event, context):
 
     # Custom Intents
 
-    if intent == "NonStopIntent":
-        return nonstop_intent(event, context)
+    if intent == "CounterIntent":
+        return counter_intent(event, context)
 
-    if intent == "PlanMyTrip":
-        return plan_my_trip(event, context)
+    if intent == "SingIntent":
+        return sing_intent(event, context)
 
-    if intent == "CountIntent":
-        return count_intent()
-
-    if intent == "PickANumberIntent":
-        return count_intent()
+    if intent == "TripIntent":
+        return trip_intent(event, context)
 
     # Required Intents
 
@@ -156,4 +158,3 @@ def lambda_handler(event, context):
 
     elif event['request']['type'] == "IntentRequest":
         return intent_router(event, context)
-
