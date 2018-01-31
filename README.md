@@ -104,7 +104,7 @@ You may have noticed that I skipped over adding intents to the Alexa Skill Kit i
 
 Let’s talk a look at some of these functions.
 
-###sing_intent
+## sing_intent
 This function gets called when we receive the `SingIntent`. It uses the `statement` function from earlier to sing a short song to the user.
 
     def sing_intent(event, context):
