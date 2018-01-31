@@ -102,7 +102,7 @@ This happens when the skill is invoked with an intent. We need to do another che
 
 You may have noticed that I skipped over adding intents to the Alexa Skill Kit interface. This is a bit beyond the scope of this tutorial. The Skill Builder is complex. For now just open the Builder’s code editor and paste in the code from [intents.json](https://github.com/jrigden/alexa_template/blob/master/intents.json) from the GitHub repo. There are many good guides for the Skill Builder available online.
 
-Let’s talk a look at some of these functions.
+Let’s take a look at some of these functions.
 
 ###sing_intent
 This function gets called when we receive the `SingIntent`. It uses the `statement` function from earlier to sing a short song to the user.
