@@ -7,8 +7,8 @@ Additionally the  tutorial is also available in video form on [Mr. Rigden's Chan
 
 **If you find this code or this tutorial useful, would you please star this github project.**
 
-## Support on Beerpay
-Hey Folks! Help me out for a couple of :beers:!
+## Support Me on Beerpay
+If you like my work than maybe send me some :beer: money!
 
 [![Beerpay](https://beerpay.io/jrigden/alexa_template/badge.svg?style=beer-square)](https://beerpay.io/jrigden/alexa_template)  [![Beerpay](https://beerpay.io/jrigden/alexa_template/make-wish.svg?style=flat-square)](https://beerpay.io/jrigden/alexa_template?focus=wish)
 
