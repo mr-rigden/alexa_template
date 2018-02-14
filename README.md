@@ -1,6 +1,6 @@
 
 
-
+[![Github All Releases](https://img.shields.io/github/downloads/atom/atom/total.svg)]()
 **alexa_template**
 
 *This repo contains the  template for Alexa Skills in Python. It also includes the companion tutorial. Both written by [Jason Rigden](https://jasonrigden.com/). 
