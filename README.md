@@ -7,10 +7,6 @@ Additionally the  tutorial is also available in video form on [Mr. Rigden's Chan
 
 **If you find this code or this tutorial useful, would you please star this github project.**
 
-## Support Me on Beerpay
-If you like my work than maybe send me some :beer: money!
-
-[![Beerpay](https://beerpay.io/jrigden/alexa_template/badge.svg?style=beer-square)](https://beerpay.io/jrigden/alexa_template)  [![Beerpay](https://beerpay.io/jrigden/alexa_template/make-wish.svg?style=flat-square)](https://beerpay.io/jrigden/alexa_template?focus=wish)
 
 # How to make an Alexa Skill with Python
 This guide will assume that you have already completed the [Alexa Python Tutorial](https://developer.amazon.com/alexa-skills-kit/alexa-skill-quick-start-tutorial) from Amazon. If you have done this then you should have a good handle on how to create new Alexa Skills and Lambda functions. But you probably still have no idea how to write code for an Alexa Skill. The code for “`alexa-skills-kit-color-expert-python”` is almost unreadable. Maybe [Amazon](https://twitter.com/alexadevs) should hire me to write tutorials. :stuck_out_tongue_winking_eye: Seriously, if you really like this tutorial tell the [Alexa Devs](https://twitter.com/alexadevs) they should hire me to make more.
@@ -174,7 +170,10 @@ I hope you found this useful. Although this was not an complete guide to making 
 Please [open a new issue](https://github.com/jrigden/alexa_template/issues/new) in this repo.
 
 
+## Support Me on Beerpay
+If you like my work than maybe send me some :beer: money!
 
+[![Beerpay](https://beerpay.io/jrigden/alexa_template/badge.svg?style=beer-square)](https://beerpay.io/jrigden/alexa_template)  [![Beerpay](https://beerpay.io/jrigden/alexa_template/make-wish.svg?style=flat-square)](https://beerpay.io/jrigden/alexa_template?focus=wish)
 
 
 
