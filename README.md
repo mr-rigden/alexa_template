@@ -9,7 +9,7 @@ Additionally the  tutorial is also available in video form on [Mr. Rigden's Chan
 
 
 # How to make an Alexa Skill with Python
-This guide will assume that you have already completed the [Alexa Python Tutorial](https://developer.amazon.com/alexa-skills-kit/alexa-skill-quick-start-tutorial) from Amazon. If you have done this then you should have a good handle on how to create new Alexa Skills and Lambda functions. But you probably still have no idea how to write code for an Alexa Skill. The code for “`alexa-skills-kit-color-expert-python”` is almost unreadable. Maybe [Amazon](https://twitter.com/alexadevs) should hire me to write tutorials. :stuck_out_tongue_winking_eye: Seriously, if you really like this tutorial tell the [Alexa Devs](https://twitter.com/alexadevs) they should hire me to make more.
+This guide will assume that you have already completed the [Alexa Python Tutorial](https://developer.amazon.com/alexa-skills-kit/alexa-skill-quick-start-tutorial) from Amazon. If you have done this then you should have a good handle on how to create new Alexa Skills and Lambda functions. But you probably still have no idea how to write code for an Alexa Skill. The code for “`alexa-skills-kit-color-expert-python”` is almost unreadable. Maybe [Amazon](https://twitter.com/alexadevs) should hire me to write tutorials. :stuck_out_tongue_winking_eye: Seriously, if you really like this tutorial, tell the [Alexa Devs](https://twitter.com/alexadevs) they should hire me to make more.
 
 This tutorial will show you a template with some nice clean readable code.
 
