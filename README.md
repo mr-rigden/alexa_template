@@ -171,7 +171,7 @@ Please [open a new issue](https://github.com/jrigden/alexa_template/issues/new) 
 
 
 ## Support Me on Beerpay
-If you like my work than maybe send me some :beer: money!
+If you like my work? Send me some :beer: or :coffee: money!
 
 [![Beerpay](https://beerpay.io/jrigden/alexa_template/badge.svg?style=beer-square)](https://beerpay.io/jrigden/alexa_template)  [![Beerpay](https://beerpay.io/jrigden/alexa_template/make-wish.svg?style=flat-square)](https://beerpay.io/jrigden/alexa_template?focus=wish)
 
