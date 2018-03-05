@@ -1,11 +1,13 @@
 
 
+
 **alexa_template**
 
-*This repo contains the  template for Alexa Skills in Python. It also includes the companion tutorial. Both written by [Jason Rigden](https://jasonrigden.com/). 
+**If you find this code or this tutorial useful, would you please star this github project.**
+
+*This repo contains the  template for Alexa Skills in Python. It also includes the companion tutorial. Both written by [Jason Rigden](https://medium.com/@mr_rigden). 
 Additionally the  tutorial is also available in video form on [Mr. Rigden's Channel on Youtube](https://www.youtube.com/watch?v=i8QCO0YWJRY&list=PLLlMDtI0KL5pK4-6N4hGK7_wwayF_naDG)* 
 
-**If you find this code or this tutorial useful, would you please star this github project.**
 
 
 # How to make an Alexa Skill with Python
